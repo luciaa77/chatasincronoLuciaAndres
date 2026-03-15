@@ -1,5 +1,6 @@
 package chat;
-
+import java.io.IOException;
+import java.net.Socket;
 /**
  * Clase ClienteChat
  * Se encarga de conectarse al servidor y arrancar el hilo de envío.
