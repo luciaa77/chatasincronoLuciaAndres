@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 
 /**
- * Hilo encargado de recibir mensajes desde el otro extremo del chat
+ * Hilo encargado de recibir mensajes desde el otro extremo
  * y mostrarlos por pantalla.
  * 
  * @author Andres
@@ -14,7 +14,7 @@ public class HiloRecibir extends Thread {
     private BufferedReader entrada;
 
     /**
-     * Constructor del hilo receptor.
+     * Constructor del hilo de recepción.
      * 
      * @param entrada flujo de entrada del socket
      */
@@ -23,7 +23,7 @@ public class HiloRecibir extends Thread {
     }
 
     /**
-     * Método que mantiene la recepción continua de mensajes.
+     * Mantiene la escucha continua de mensajes recibidos.
      */
     @Override
     public void run() {
@@ -31,7 +31,7 @@ public class HiloRecibir extends Thread {
 
         try {
             while ((mensaje = entrada.readLine()) != null) {
-                System.out.println("Cliente: " + mensaje);
+                System.out.println("Mensaje recibido: " + mensaje);
             }
         } catch (IOException e) {
             System.out.println("Error al recibir mensajes: " + e.getMessage());

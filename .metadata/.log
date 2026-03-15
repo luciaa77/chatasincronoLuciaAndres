@@ -435,3 +435,214 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-15 13:41:47.393
 !MESSAGE Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+!SESSION 2026-03-15 13:46:21.823 -----------------------------------------------
+eclipse.buildId=4.37.0.20250905-1455
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-15 13:46:26.024
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2026-03-15 13:46:26.336
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (685) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-15 13:46:27.644
+!MESSAGE Logback config file: C:\Users\ANDRÉS\Desktop\chatasincronoLuciaAndres\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-15 13:46:33.983
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-15 13:46:33.985
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-15 13:46:33.998
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-03-15 13:46:34.056
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ANDRÉS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 13:46:36.122
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.363.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 13:46:36.416
+!MESSAGE [Info]	[certificates] Removed 10 expired certificates
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-15 13:46:39.521
+!MESSAGE Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-15 13:59:26.311
+!MESSAGE [Info] Document is null for editor: ClienteChat.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-15 13:59:26.311
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ANDRÉS/Desktop/chatasincronoLuciaAndres/ChatAsincrono/src/chat/ClienteChat.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-15 13:59:26.324
+!MESSAGE [Info] Document is null for editor: HiloEnviar.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-15 13:59:26.324
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ANDRÉS/Desktop/chatasincronoLuciaAndres/ChatAsincrono/src/chat/HiloEnviar.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-15 13:59:26.333
+!MESSAGE [Info] Document is null for editor: HiloRecibir.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-15 13:59:26.334
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ANDRÉS/Desktop/chatasincronoLuciaAndres/ChatAsincrono/src/chat/HiloRecibir.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-15 13:59:26.351
+!MESSAGE [Info] Document is null for editor: ServidorChat.java
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-15 13:59:26.352
+!MESSAGE [Info] Completion handler is refreshed for the document: file:///C:/Users/ANDRÉS/Desktop/chatasincronoLuciaAndres/ChatAsincrono/src/chat/ServidorChat.java
+!SESSION 2026-03-15 13:59:28.337 -----------------------------------------------
+eclipse.buildId=4.37.0.20250905-1455
+java.version=23.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-15 13:59:31.895
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2026-03-15 13:59:32.250
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.31.0 (685) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2026-03-15 13:59:33.446
+!MESSAGE Logback config file: C:\Users\ANDRÉS\Desktop\chatasincronoLuciaAndres\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.100.20250418-1315.xml
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-15 13:59:40.919
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-15 13:59:40.924
+!MESSAGE [Info] Found native binary in fragment bundle: com.microsoft.copilot.eclipse.core.agent.win32
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2026-03-15 13:59:40.943
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY org.eclipse.egit.ui 2 0 2026-03-15 13:59:41.046
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ANDRÉS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 13:59:43.051
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.363.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 13:59:43.371
+!MESSAGE [Info]	[certificates] Removed 10 expired certificates
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2026-03-15 13:59:46.806
+!MESSAGE Cannot run program "\usr\bin\git" (in directory "\usr\bin"): CreateProcess error=2, El sistema no puede encontrar el archivo especificado
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:03:50.644
+!MESSAGE [Info]	[default] Context provider relatedFilesShim exceeded time budget of 150ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:03:50.943
+!MESSAGE [Info]	[fetchCompletions] Request 47fc92f6-ee2f-4fe8-8e03-5ea760f07d9a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 292.148199999996ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:03:50.943
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:03:52.526
+!MESSAGE [Info]	[fetchCompletions] Request 13351e70-de1e-444c-8551-83a6130eb95f at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 145.13790000000154ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:03:52.606
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:03:52.937
+!MESSAGE [Info]	[fetchCompletions] Request 907e2d34-862d-46ff-ab0c-e7e2d54c20f1 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 153.03979999999865ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:03:53.003
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:03:53.222
+!MESSAGE [Info]	[fetchCompletions] Request 7725c9c2-a0d2-4f00-aa73-ea006d6e8869 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 206.13229999999749ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:03:53.286
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:03:53.458
+!MESSAGE [Info]	[fetchCompletions] Request 554de187-345d-469c-878f-24c615060f96 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 149.9018999999971ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:03:53.526
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:03:54.142
+!MESSAGE [Info]	[fetchCompletions] Request 3b040d39-cb45-48fa-aef1-5e039e46ce1b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 152.03169999999227ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:03:54.206
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:03:54.585
+!MESSAGE [Info]	[fetchCompletions] Request 8eda9329-9ab9-4906-b96f-61f3bf20d9ca at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 163.35999999998603ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:03:54.673
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:03:54.836
+!MESSAGE [Info]	[fetchCompletions] Request 9bf35c05-333a-4009-948e-85f59ed447bc at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 138.050900000002ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:03:54.837
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:02.674
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:02.675
+!MESSAGE [Info]	[fetchCompletions] Request ff7f6b6b-9167-48f3-b58b-b96017fe0a9c at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 141.87200000000303ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:13.467
+!MESSAGE [Info]	[fetchCompletions] Request ac6e726c-0060-4868-a107-608d6692f1e0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 150.16130000003614ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:13.468
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:23.628
+!MESSAGE [Info]	[fetchCompletions] Request ce141348-a8c8-4fc9-867a-6cbba7c34cde at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 155.88159999996424ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:23.628
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:26.973
+!MESSAGE [Info]	[fetchCompletions] Request 24f95273-276a-4fad-bb2e-503ef958b576 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 170.01420000003418ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:27.042
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:27.243
+!MESSAGE [Info]	[fetchCompletions] Request 13328876-fb0b-40d5-9fae-c7bd15df9d0a at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 156.3599000000395ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:27.338
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:27.637
+!MESSAGE [Info]	[fetchCompletions] Request 78e97e69-c0f1-4efd-9a5a-742613a7b435 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 164.9030999999959ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:27.706
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:27.904
+!MESSAGE [Info]	[fetchCompletions] Request 3c334f2e-7eba-4ee5-be8e-0c82f36b71d4 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 170.97569999995176ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:27.967
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:28.413
+!MESSAGE [Info]	[fetchCompletions] Request 29d2e6fe-cbb2-4649-8b8c-2a480668c4a0 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 156.03270000003977ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:28.472
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:28.985
+!MESSAGE [Info]	[fetchCompletions] Request d80525cb-18bf-4a12-b5fb-d8e11a4b9c15 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-41-copilot/completions> finished with 200 status after 142.7371999999741ms
+
+!ENTRY org.eclipse.lsp4e 1 0 2026-03-15 14:04:29.048
+!MESSAGE [Info]	[streamChoices] solution 0 returned. finish reason: [stop]

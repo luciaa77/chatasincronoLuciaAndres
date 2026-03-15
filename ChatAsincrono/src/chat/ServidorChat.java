@@ -2,13 +2,14 @@ package chat;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
 /**
  * Clase principal del servidor del chat asíncrono.
- * Se encarga de abrir un puerto, esperar la conexión de un cliente
- * y lanzar el hilo de recepción de mensajes.
+ * Abre un puerto, espera la conexión de un cliente
+ * y lanza un hilo de envío y otro de recepción.
  * 
  * @author Andres
  */
@@ -29,8 +30,15 @@ public class ServidorChat {
                     new InputStreamReader(socket.getInputStream())
             );
 
+            PrintWriter salida = new PrintWriter(
+                    socket.getOutputStream(), true
+            );
+
             HiloRecibir hiloRecibir = new HiloRecibir(entrada);
+            HiloEnviar hiloEnviar = new HiloEnviar(salida);
+
             hiloRecibir.start();
+            hiloEnviar.start();
 
         } catch (Exception e) {
             System.out.println("Error en el servidor: " + e.getMessage());

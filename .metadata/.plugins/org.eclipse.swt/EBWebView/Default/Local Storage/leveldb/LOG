@@ -1,3 +1,2 @@
-2026/03/15-13:41:41.588 30d8 Reusing MANIFEST C:\Users\ANDRÉS\Desktop\chatasincronoLuciaAndres\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001
-2026/03/15-13:41:41.596 30d8 Recovering log #3
-2026/03/15-13:41:41.599 30d8 Reusing old log C:\Users\ANDRÉS\Desktop\chatasincronoLuciaAndres\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/000003.log 
+2026/03/15-13:46:33.387 3754 Creating DB C:\Users\ANDRÉS\Desktop\chatasincronoLuciaAndres\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb since it was missing.
+2026/03/15-13:46:33.436 3754 Reusing MANIFEST C:\Users\ANDRÉS\Desktop\chatasincronoLuciaAndres\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Local Storage\leveldb/MANIFEST-000001

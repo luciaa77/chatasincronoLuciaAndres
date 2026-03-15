@@ -1,33 +1,45 @@
 package chat;
-import java.io.IOException;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.net.Socket;
+
 /**
- * Clase ClienteChat
- * Se encarga de conectarse al servidor y arrancar el hilo de envío.
+ * Clase principal del cliente del chat asíncrono.
+ * Se conecta al servidor y lanza un hilo de envío
+ * y otro de recepción.
+ * 
  * @author Lucía
  */
 public class ClienteChat {
 
     public static void main(String[] args) {
-
-        String host = "localhost";
-        int puerto = 5000;
+        final String HOST = "localhost";
+        final int PUERTO = 5000;
 
         try {
-
             System.out.println("Conectando al servidor...");
 
-            Socket socket = new Socket(host, puerto);
-
+            Socket socket = new Socket(HOST, PUERTO);
             System.out.println("Conectado al servidor");
 
-            HiloEnviar hiloEnviar = new HiloEnviar(socket);
+            BufferedReader entrada = new BufferedReader(
+                    new InputStreamReader(socket.getInputStream())
+            );
+
+            PrintWriter salida = new PrintWriter(
+                    socket.getOutputStream(), true
+            );
+
+            HiloRecibir hiloRecibir = new HiloRecibir(entrada);
+            HiloEnviar hiloEnviar = new HiloEnviar(salida);
+
+            hiloRecibir.start();
             hiloEnviar.start();
 
-        } catch (IOException e) {
-
-            System.out.println("Error en la conexión");
-            e.printStackTrace();
+        } catch (Exception e) {
+            System.out.println("Error en la conexión: " + e.getMessage());
         }
     }
 }
