@@ -7,6 +7,7 @@ import java.util.Scanner;
 /**
  * Hilo encargado de leer mensajes del teclado
  * y enviarlos al servidor.
+ * @author Lucía
  */
 public class HiloEnviar extends Thread {
 

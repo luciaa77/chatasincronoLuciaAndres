@@ -3,6 +3,7 @@ package chat;
 /**
  * Clase ClienteChat
  * Se encarga de conectarse al servidor y arrancar el hilo de envío.
+ * @author Lucía
  */
 public class ClienteChat {
 

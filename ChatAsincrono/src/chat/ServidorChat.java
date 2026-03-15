@@ -10,7 +10,7 @@ import java.net.Socket;
  * Se encarga de abrir un puerto, esperar la conexión de un cliente
  * y lanzar el hilo de recepción de mensajes.
  * 
- * @author Alejandro
+ * @author Andres
  */
 public class ServidorChat {
 
